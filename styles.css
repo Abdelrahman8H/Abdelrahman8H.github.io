@@ -26,7 +26,7 @@ section {
 .section-4 { background-image: url('Images/Capture5.jpeg'); }
 .section-5 { background-image: url('Images/data2.png'); }
 .section-6 { background-image: url('Images/data.jpg'); }
-.section-7 { background-image: url('Images/cozy.jpg'); }
+.section-7 { background-image: url('Images\cozy.jpg'); }
 
 .overlay {
     position: absolute;
