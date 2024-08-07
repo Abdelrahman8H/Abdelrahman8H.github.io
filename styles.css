@@ -20,12 +20,13 @@ section {
     overflow: hidden;
 }
 
-.section-1 { background-image: url('Images/data3.png'); }
+.section-1 { background-image: url('images/data3.png'); }
 .section-2 { background-image: url('Images/peakpx.jpg'); }
-.section-3 { background-image: url('Images/RDJY2045.JPG'); }
+.section-3 { background-image: url('images/RDJY2045.JPG'); }
 .section-4 { background-image: url('Images/Capture5.jpeg'); }
 .section-5 { background-image: url('Images/data2.png'); }
 .section-6 { background-image: url('Images/data.jpg'); }
+.section-7 { background-image: url('Images/cozy.jpg'); }
 
 .overlay {
     position: absolute;
@@ -88,4 +89,42 @@ section {
     margin-top: 20px;
     margin-bottom: 10px;
     text-align: center;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    section {
+        height: auto;
+        background-attachment: scroll;
+    }
+    
+    .content {
+        padding: 10px;
+        max-width: 100%;
+    }
+    
+    .navbar-2 {
+        margin-bottom: 10px;
+    }
+    
+    .container {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .between-sections {
+        height: 100px;
+    }
+    
+    .project-title {
+        font-size: 1.5em;
+    }
+    
+    .project-img {
+        padding: 5px;
+    }
+    
+    footer {
+        padding: 10px;
+    }
 }
